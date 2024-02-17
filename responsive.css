@@ -1,0 +1,186 @@
+@media only screen and (max-width: 768px) and (min-width: 300px) {
+    .main-header nav .logo img {
+        width: 80%;
+    }
+
+    .navbar {
+        flex-wrap: nowrap;
+    }
+
+    .others-section-content {
+        padding: 30px;
+    }
+
+    .meetDoctors-section-row {
+        padding: 0 10px;
+    }
+
+    .footer-section {
+        padding: 10px;
+    }
+
+    .footer-box p {
+        text-align: center;
+    }
+
+    .hero-section {
+        min-height: 300px;
+    }
+
+    .hero-section-content h2 {
+        font-size: 34px;
+        text-align: center;
+    }
+
+    blockquote {
+        font-size: 18px;
+    }
+
+    blockquote::before {
+        top: -6px;
+        left: -6px;
+    }
+
+    .rendom-text-section {
+        padding-bottom: 30px;
+    }
+
+    .youtube-video-section iframe {
+        height: 300px;
+    }
+
+    .career-section {
+        padding: 50px 0;
+    }
+
+    .career-section p {
+        font-size: 18px;
+    }
+
+    .education-section h3 {
+        font-size: 32px;
+    }
+
+    .education-section p {
+        font-size: 14px;
+    }
+
+    .center-information-box {
+        height: 350px;
+    }
+
+    .center-information-box-content {
+        padding: 20px;
+    }
+
+    .center-information-box-content .center-information-box-content-icon svg {
+        width: 45px;
+    }
+
+    .center-information-box-content h3 {
+        font-size: 24px;
+        margin: 10px 0;
+    }
+
+    .center-information-box-content a {
+        padding: 12px 25px;
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .education-section {
+        padding-bottom: 20px;
+    }
+
+    .happy-patient-iframe iframe {
+        height: 300px;
+    }
+
+    .happy-patient-content {
+        padding: 10px;
+    }
+
+    .happy-patient-content h3 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .happy-patient-content p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .subscribe-section {
+        padding-top: 20px;
+    }
+
+    .subscribe-content {
+        padding: 10px;
+    }
+
+    .subscribe-content h5 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .subscribe-content strong {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .subscribe-content p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .subscribe-content a {
+        padding: 12px 25px;
+        font-size: 16px;
+        margin: 0 auto;
+        display: block;
+        width: fit-content;
+    }
+
+    .testimonial-section {
+        padding-top: 0px;
+    }
+
+    .testimonial-section h3 {
+        font-size: 34px;
+        margin-bottom: 10px;
+    }
+
+    .testimonial-box {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .testimonial-box h3 {
+        font-size: 22px;
+    }
+
+    .testimonial-box h3 {
+        font-size: 16px;
+    }
+
+    .carousel-control-prev {
+        left: -20px;
+    }
+
+    .carousel-control-next {
+        right: -20px;
+    }
+
+    .sponsors-section {
+        padding-top: 0;
+    }
+
+    .sponsors-section h3 {
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+
+    .sponsor-col {
+        width: 50%;
+    }
+}
