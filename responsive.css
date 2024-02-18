@@ -27,12 +27,33 @@
         text-align: center;
     }
 
-    .hero-section {
-        min-height: 300px;
+    .hero .carousel-item {
+        height: 300px;
         background-position: right;
     }
 
+
+    .hero-section-content {
+        padding-top: 120px;
+        padding-left: 50px;
+        height: 100%;
+    }
+
+    .hero .carousel-control-prev-icon,
+    .hero .carousel-control-next-icon {
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        background-color: var(--secondary-color);
+    }
+
+    .hero .carousel-control-prev-icon svg,
+    .hero .carousel-control-next-icon svg {
+        width: 25px;
+    }
+
     .hero-section-content h2 {
+        width: 74%;
         font-size: 24px;
         text-align: center;
     }

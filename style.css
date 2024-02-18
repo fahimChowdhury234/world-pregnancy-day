@@ -47,6 +47,13 @@ ul {
     color: var(--brand-color);
 }
 
+.hero .carousel-item {
+    height: 900px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .hero-section {
     min-height: 775px;
     background-image: url(./assets/img/slide4.jpg);
@@ -58,14 +65,31 @@ ul {
 }
 
 .hero-section-content {
-    /* padding-top: 100px; */
+    padding-top: 300px;
+    padding-left: 550px;
+    height: 100%;
 }
 
 .hero-section-content h2 {
+
+    width: 50%;
     font-size: 62px;
     font-weight: 700;
     color: var(--brand-color) !important;
     line-height: 1.4em;
+}
+
+.hero .carousel-control-prev-icon,
+.hero .carousel-control-next-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    background-color: var(--secondary-color);
+}
+
+.hero .carousel-control-prev-icon svg,
+.hero .carousel-control-next-icon svg {
+    width: 40px;
 }
 
 .hero-section-content .buttons {
